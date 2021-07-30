@@ -1,9 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import 'tailwindcss/tailwind.css'
 
 export default function Home() {
+  let underlineStyle = {
+    'boxShadow': 'inset 0 -0.1666666667em 0 0 #fff, inset 0 -0.3333333333em 0 0 #bae6fd'
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -13,12 +16,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-            🛡️ Backup All Your Notion Data
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
+            🛡️ Backup Your Notion Data
         </h1>
 
-        <p className={styles.description}>
-            Be the first to secure your knowledge base, join the notification list!
+        <p className="max-w-4xl text-lg sm:text-2xl font-medium sm:leading-10 space-y-6 max-w-4xl mx-auto mb-6">
+            Be the first to secure your knowledge base, <a href="https://fqj8kpv5rm7.typeform.com/to/CEQx3jkD" className="text-light-blue-600 font-semibold" style={underlineStyle}>join the notification list</a>!
         </p>
       </main>
 
