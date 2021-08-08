@@ -41,6 +41,15 @@ export default function Home() {
         <p className="max-w-4xl text-lg sm:text-2xl font-medium sm:leading-10 space-y-6 max-w-4xl mx-auto mb-6">
             Be the first to secure your knowledge base, <a href="https://fqj8kpv5rm7.typeform.com/to/CEQx3jkD" className="text-light-blue-600 font-semibold" style={underlineStyle}>join the notification list</a>!
         </p>
+        
+        <blockquote className="p-4 italic border-l-4 bg-neutral-100 text-neutral-600 border-neutral-500 quote sm:text-2xl font-medium sm:leading-10 space-y-6 max-w-4xl">
+            <cite className="max-w-4xl text-lg sm:text-2xl font-medium sm:leading-10 space-y-6 max-w-4xl mx-auto mb-6">
+                The export function in the Notion is great for downloading all of your data in Markdown/CSV format. It is still a manual process and a bit limiting. NotionBackup aims to be a set-and-forget solution for people who value their time and data security. 
+                <br />
+                - <a href="https://twitter.com/naz_avo/status/1424335826520092674" target="_blank" rel="noopener noreferrer">Naz Avó</a>
+            </cite>
+        </blockquote>
+
       </main>
 
       <footer className={styles.footer}>
